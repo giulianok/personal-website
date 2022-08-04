@@ -1,0 +1,33 @@
+.App {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.Name {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.Hi {
+  padding: 2rem 0;
+  font-size: 3em;
+}
+
+.SocialMedia {
+  display: inline-flex;
+  padding-top: 5rem;
+}
+
+.SocialMedia li {
+  padding: 10px;
+}
